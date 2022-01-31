@@ -17,7 +17,7 @@ html {
      font-weight: 400;
  }
 
-button {
+#btncolor {
     border: 0;
     border-radius: 7px;
     background: rgba(42,50,113, .20);
@@ -34,11 +34,11 @@ button {
     box-shadow: 0 2px rgba(42,50,113, .05);
   }
 
-  button:hover {
+  #btncolor:hover {
     background-color: rgba(42,50,113, 0.3);
   }
 
-  button:active {
+  #btncolor:active {
     transition: 0.001s;
     background: rgba(42,50,113, .20);
     box-shadow: 0 1px rgba(42,50,113, .05);
@@ -54,5 +54,25 @@ button {
 
 .colorbox {
     padding: 35%;
-    font-size: 18px;
+    text-align: center;
+    position: relative;
+}
+
+textarea {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.copyBtn {
+  width: 20em;
+  height: 5em;
+  position: absolute; 
+  top: 10rem; left: 5rem;
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
 }
