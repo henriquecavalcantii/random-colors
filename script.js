@@ -23,3 +23,13 @@ btncolor.addEventListener("click", () => {
     setBg2();
     setBg3();
 })
+
+function copyToClipBoard() {
+
+    var content = document.getElementByClassName('colobox');
+    
+    content.select();
+    document.execCommand('copy');
+
+    alert("Copied!");
+}
