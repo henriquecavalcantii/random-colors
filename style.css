@@ -63,7 +63,8 @@ textarea {
   background-color: transparent;
   resize: none;
   outline: none;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .copyBtn {
